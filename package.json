@@ -1,0 +1,16 @@
+{
+  "name": "sss",
+  "version": "1",
+  "description": "vurpress + githun.io",
+  "main": "index.js",
+  "repository": "\tsrc",
+  "author": "<2640634942@qq.com>",
+  "license": "MIT",
+  "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.27"
+  }
+}
