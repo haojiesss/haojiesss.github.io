@@ -27,20 +27,11 @@ export default defineUserConfig<DefaultThemeOptions>({
                 children: [
                     {
                         text: 'Vue',
-                        children: [
-                            {
-                                text: 'Vue2.xx',
-                                link: 'vue2'
-                            },
-                            {
-                                text: 'Vue3.xx',
-                                link: 'vue3'
-                            },
-                        ]
+                        link: '/vue/'
                     },
                     {
                         text: 'React',
-                        link: 'react'
+                        link: '/react/'
                     }
                 ]
             }
